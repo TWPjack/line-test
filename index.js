@@ -196,7 +196,7 @@ bot.on('message', async event => {
     } else {
       for (const data of exhubitions) {
         if (data.title === text) {
-          reply = data.showInfo[0].locationName
+          reply = data.showInfo[0].location
           break
         }
       }
